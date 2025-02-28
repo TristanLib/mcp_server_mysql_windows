@@ -1,0 +1,8 @@
+{
+  "command": {
+    "name": "MySQL数据库服务",
+    "command": "cmd /k node E:\\cursor_projects\\mcp_server_mysql\\mcp-server.js",
+    "type": "command",
+    "description": "连接本地MySQL数据库服务"
+  }
+} 

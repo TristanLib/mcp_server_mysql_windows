@@ -1,0 +1,33 @@
+{
+  "name": "mcp_server_mysql",
+  "version": "1.0.0",
+  "description": "MCP MySQL服务 - 用于连接本地MySQL数据库的Cursor MCP服务",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "mysql",
+    "cursor",
+    "database",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mcp_server_mysql": "file:",
+    "mysql2": "^3.2.0",
+    "node-fetch": "^2.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
